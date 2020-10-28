@@ -12,7 +12,7 @@ module.exports = {
             let user = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[1]))
             if (!user) return message.reply("We couldn't find this member, please try again");
 
-            let role1 = message.guild.roles.find(role => role.name === "GAMERS");
+            let role1 = message.guild.roles.find(role => role.name === "✅ Verified");
             let role2 = message.guild.roles.find(role => role.name === "MUTED");
 
             if (!role2) message.reply("Couldn't find this role");
