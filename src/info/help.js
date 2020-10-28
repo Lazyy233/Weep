@@ -16,7 +16,6 @@ module.exports = {
             .addField("**Moderation Commands**", "📈", false)
             .addField("**NSFW Commands**", "🔞", false)
             .addField("**Owner Commands**", "🚀", false)
-            .setTimestamp()
         message.channel.send(embed0).then(m => {
             m.react("ℹ️")
             m.react("🎉")
