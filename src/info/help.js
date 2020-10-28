@@ -8,14 +8,14 @@ module.exports = {
         const embed0 = new RichEmbed()
             .setTitle("Prefix: `.`")
             .setAuthor(`Lazyy Help Command`)
-            .setColor(0x512
-            .setImage
+            .setColor(0x5126c7)
             .setFooter("Made by @Lazyy#7933")
             .addField("**Information Commands**", "ℹ️", false)
             .addField("**Fun Commands**", "🎉", false)
             .addField("**Moderation Commands**", "📈", false)
             .addField("**NSFW Commands**", "🔞", false)
             .addField("**Owner Commands**", "🚀", false)
+        
         message.channel.send(embed0).then(m => {
             m.react("ℹ️")
             m.react("🎉")
@@ -32,7 +32,6 @@ module.exports = {
                     .setColor(0x5126c7)
                     .setAuthor("🎙️ Informational Commands\n\n ")
                     .addField("Catchall Generator", "`.catchall <domain>`")
-                    .addField("Crypto Converter", "`.crypto <crypto currency> <currency of choice>`")
                     .addField("Currency Converter", "`.currency <init currency> <amount> <final currency>`")
                     .addField("Delay Calculator", "`.delaycalc <task number> <proxy count>`")
                     .addField("Gmail J1g", "`.gmail <your email (must be gmail)>`")
