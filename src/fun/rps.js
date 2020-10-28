@@ -11,7 +11,7 @@ module.exports = {
         const embed = new Discord.MessageEmbed()
             .setColor(0x5126c7)
             .setTitle("Welcome to Rock Paper Scissors!")
-            .setFooter("Made by @Lazyy$7933)
+            .setFooter("Made by @Lazyy$7933")
             .setDescription("React with 🗻 for rock, 📰 for paper, and ✂ for scissors!")
             .setTimestamp();
 
